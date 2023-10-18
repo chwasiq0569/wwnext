@@ -88,14 +88,14 @@ const Navbar = ({ setMoveToBack, moveToBack }) => {
                         </div>
                         <ul>
                             <li onClick={toggleMenu}><a href="https://worldwar0x.io" rel="noreferrer" target='_blank'>PLAY</a></li>
-                            <li onClick={toggleMenu}><a href="#FirstEdition">NFTS</a></li>
+                            {/* <li onClick={toggleMenu}><a href="#FirstEdition">NFTS</a></li> */}
                             <li onClick={toggleMenu}><a href="#NEWERA">GAMEPLAY</a></li>
-                            <li onClick={toggleMenu}><a href="#WARXECOSYSTEM">ECOSYSTEM</a></li>
-                            <li><a href='https://world-war-0x.gitbook.io/white-paper/' rel="noreferrer" target="_blank">WHITEPAPER</a></li>
+                            {/* <li onClick={toggleMenu}><a href="#WARXECOSYSTEM">ECOSYSTEM</a></li> */}
+                            {/* <li><a href='https://world-war-0x.gitbook.io/white-paper/' rel="noreferrer" target="_blank">WHITEPAPER</a></li> */}
                         </ul>
-                        <div className="GetWhiteListedBtn small-btn">
+                        {/* <div className="GetWhiteListedBtn small-btn">
                             <a href='https://docs.google.com/forms/d/e/1FAIpQLSc7c1H_PDroVkPz5AztS6pLKLWjDTFerMNgHQiCO7nn1oL2Kg/viewform' target="_blank" rel="noreferrer"><span>GET WHITELISTED</span></a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
