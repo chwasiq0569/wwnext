@@ -291,7 +291,7 @@ const HomePage = () => {
 
                 <div className="MobileVersionContainerBox">
                     <h2>MOBILE VERSIONS</h2>
-                    <p>World War 0x will soon be available on the go on iOS and Android devices.</p>
+                    <p>World War Next will soon be available on the go on iOS and Android devices.</p>
                     <div className="appstoreimg-box">
                         <img loading="lazy" src={appStore} alt="" />
                         <img loading="lazy" src={googlePlay} alt="" />
