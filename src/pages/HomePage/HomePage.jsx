@@ -99,7 +99,7 @@ const HomePage = () => {
             </div>}
             <Navbar moveToBack={moveToBack} setMoveToBack={setMoveToBack} />
             <HeroSection moveToBack={moveToBack} />
-            <div className="FirstEditionContainer" id='FirstEdition'>
+            {/* <div className="FirstEditionContainer" id='FirstEdition'>
                 <div className="FirstEditionContainerCentered">
                     <div className="FirstEditionContainer-Text">
                         <h4>TRANCH #1</h4>
@@ -114,21 +114,16 @@ const HomePage = () => {
                                 <img loading="lazy" src={line} alt="" />
                             </div>
                         </div>
-                        {/* <div className="FirstEditionTrance-text">
-                            <h4>Tranche #1 </h4>
-                            <h5>Mints September 26</h5>
-                            <img src={line} alt="" />
-                        </div> */}
                     </div>
                     <div className="FirstEditionContainer-Img">
                         <img loading="lazy" src={NftSoldier} alt="" />
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <ThreeTypeNFT />
 
-            <CarouselPuppet />
+            {/* <CarouselPuppet /> */}
 
             <div className="ANewEraContainer" id='NEWERA'>
                 <div className="ANewEraContainerCentered">
@@ -141,7 +136,7 @@ const HomePage = () => {
                         <h2>A NEW ERA</h2>
                         <img loading="lazy" src={cloud2} alt="" />
                     </div>
-                    <p>World War 0x brings a <span className="red-span">fully-featured</span> FPS to the <span className="red-span">browser</span>, allowing anyone to play completely free.</p>
+                    <p>World War Next brings a <span className="red-span">fully-featured</span> FPS to the <span className="red-span">browser</span>, allowing anyone to play completely free.</p>
                 </div>
                 <div className="ANewEra-img">
                     <img loading="lazy" src={soldiers2} alt="" />
@@ -152,10 +147,19 @@ const HomePage = () => {
                 <div className="bold-line"></div>
                 <div className="TwoTypeSectionContainerCentered">
                     <div className="TwoTypeSectionBox">
-                        <h4>FREE-TO-PLAY FPS WHERE PLAYERS CAN SHOOT, SOCIALIZE, BET & BUILD.</h4>
+                        <h4>FREE FPS THAT IS SET DURING WORLD WAR 3</h4>
                     </div>
                     <div className="TwoTypeSectionBox1">
-                        <h4>A new era for <span className='boldText'>gaming, community & ownership. Earn</span> and <span className='boldText'>bet</span> WARX TOKENS while playing <span className='boldText'>competitive matches.</span> Build maps to earn extra <span className='boldText'>$WARX</span>.</h4>
+                        <h4>CHOOSE YOUR SIDE! FIGHT IT OUT ON THE ALLIES OR AXIS</h4>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     </div>
                     <img loading="lazy" src={worldLine} className="worldLine" alt="" />
                 </div>
@@ -246,7 +250,7 @@ const HomePage = () => {
             <div className="ClassicsSectionContainer">
                 <img loading="lazy" src={ClassicsIcon} alt="" />
                 <h2>CLASSICS</h2>
-                <p>Nostalgia, fan favorites — fast-paced beloved maps. After our Token Generation maps will be voted on by the DAO.</p>
+                <p>Nostalgia, fan favorites — fast-paced beloved maps.</p>
                 {/* <div className='classicsImgGridContainer'>
                     <div className='classicsImgGridBox'><img src={ClassicsImg1} alt="" /><h5>CONTAINERS</h5></div>
                     <div className='classicsImgGridBox'><img src={ClassicsImg2} alt="" /><h5>DUSTED</h5></div>
@@ -296,7 +300,7 @@ const HomePage = () => {
 
             </div>
 
-            <div className="EcoSystemContainer" id='WARXECOSYSTEM'>
+            {/* <div className="EcoSystemContainer" id='WARXECOSYSTEM'>
 
                 <div className="EcoSystemContainerBox">
                     <img loading="lazy" src={ecosystemflower} alt="" />
@@ -324,9 +328,9 @@ const HomePage = () => {
                     <img loading="lazy" src={ecosystemImg} alt="" />
                 </div>
 
-            </div>
+            </div> */}
 
-            <div className="TheSoldiersNFTContainer">
+            {/* <div className="TheSoldiersNFTContainer">
 
                 <div className="TheSoldiersNFTContainerCentered">
                     <div className="thesoldiersNFTBox">
@@ -339,9 +343,9 @@ const HomePage = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
-            <div className="WarxContainer">
+            {/* <div className="WarxContainer">
 
                 <div className="WarxContainerBox">
                     <img loading="lazy" src={warx} alt="" />
@@ -361,9 +365,9 @@ const HomePage = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
-            <div className="BettingSectionContainer">
+            {/* <div className="BettingSectionContainer">
                 <div className="BettingSectionContainerCentered">
 
                     <div className="BettingSectionContainerBox">
@@ -380,9 +384,9 @@ const HomePage = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
-            <div className="RoadmapSectionContainer">
+            {/* <div className="RoadmapSectionContainer">
                 <h2>ROADMAP</h2>
                 <div className='RoadmapSectionContainer-flex'>
                     <div className="RoadmaplineContainer">
@@ -426,18 +430,18 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="PartnersSectionContainer">
+            {/* <div className="PartnersSectionContainer">
                 <h2>PARTNERS</h2>
                 <div className="PartnersSectionContainerCentered">
                     <img loading="lazy" src={fractal} alt="" />
                     <img loading="lazy" src={Odyn} alt="" />
                     <img loading="lazy" src={blumint} alt="" />
                 </div>
-            </div>
+            </div> */}
 
-            <div className="FAQsSectionContainer" id='FAQ'>
+            {/* <div className="FAQsSectionContainer" id='FAQ'>
                 <h2>FAQ</h2>
                 <div className='FaqsSectionCentered'>
                     <Accordion
@@ -458,8 +462,12 @@ const HomePage = () => {
                     />
                 </div>
 
-            </div>
-
+            </div> */}
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <Footer />
 
         </div>

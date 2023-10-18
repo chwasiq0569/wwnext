@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../../assets/logo.webp";
+import logo from "../../assets/WorldWarNext-Logo.png";
 import headTwitter from "../../assets/twitter.webp";
 import headYoutube from "../../assets/youtube.webp";
 import headSoo from "../../assets/so.webp";
@@ -51,26 +51,26 @@ const Navbar = ({ setMoveToBack, moveToBack }) => {
                     <div className="HeaderMenuContainer">
                         <ul>
                             <li><a href="https://worldwar0x.io" rel="noreferrer" target='_blank'>PLAY</a></li>
-                            <li><a href="#FirstEdition">NFTS</a></li>
+                            {/* <li><a href="#FirstEdition">NFTS</a></li> */}
                             <li><a href="#NEWERA">GAMEPLAY</a></li>
-                            <li><a href="#WARXECOSYSTEM">ECOSYSTEM</a></li>
-                            <li><a href='https://world-war-0x.gitbook.io/white-paper/' rel="noreferrer" target="_blank">WHITEPAPER</a></li>
+                            {/* <li><a href="#WARXECOSYSTEM">ECOSYSTEM</a></li> */}
+                            {/* <li><a href='https://world-war-0x.gitbook.io/white-paper/' rel="noreferrer" target="_blank">WHITEPAPER</a></li> */}
                         </ul>
                     </div>
                 </div>
                 <div className="HeaderRightSideContainer">
                     <div className="HeaderSocialIconContainer">
                         <ul>
-                            <li><a href="https://discord.gg/worldwar0x" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headDiscord} /></a></li>
-                            <li><a href="https://twitter.com/WorldWar0x" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headTwitter} /></a></li>
-                            <li><a href="https://www.youtube.com/channel/UC4mQ9cT7wDV6aqOuoMaX3vA" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headYoutube} /></a></li>
+                            <li><a href="https://discord.gg/VUSHy6rbSm" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headDiscord} /></a></li>
+                            <li><a href="https://twitter.com/curfluffle" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headTwitter} /></a></li>
+                            {/* <li><a href="https://www.youtube.com/channel/UC4mQ9cT7wDV6aqOuoMaX3vA" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headYoutube} /></a></li>
                             <li><a href="https://instagram.com/worldwar0x" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={headSoo} /></a></li>
-                            <li><a href="https://www.tiktok.com/@worldwar0x" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={tikTok} /></a></li>
+                            <li><a href="https://www.tiktok.com/@worldwar0x" target="_blank" rel="noreferrer"><img className="image-1156-icon" alt="" src={tikTok} /></a></li> */}
                         </ul>
                         {/* <button className="GetWhiteListedBtn">GET WHITELISTED</button> */}
-                        <div className="GetWhiteListedBtn">
+                        {/* <div className="GetWhiteListedBtn">
                             <a href='https://docs.google.com/forms/d/e/1FAIpQLSc7c1H_PDroVkPz5AztS6pLKLWjDTFerMNgHQiCO7nn1oL2Kg/viewform' target="_blank" rel="noreferrer"><span>GET WHITELISTED</span></a>
-                        </div>
+                        </div> */}
 
                     </div>
                     <div className='humburgerConatiner' onClick={toggleMenu}>
