@@ -68,9 +68,10 @@
 
 .HeroSectionBtns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 60%;
+    /* border: 2px solid red; */
 }
 
 .svg-clip-1 {
