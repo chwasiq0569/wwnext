@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import logo from "../../assets/WorldWarNext-Logo.png";
 import headTwitter from "../../assets/twitter.webp";
-import headYoutube from "../../assets/youtube.webp";
-import headSoo from "../../assets/so.webp";
+// import headYoutube from "../../assets/youtube.webp";
+// import headSoo from "../../assets/so.webp";
 import headDiscord from "../../assets/discord.webp";
-import tikTok from "../../assets/tiktok.webp";
+// import tikTok from "../../assets/tiktok.webp";
 
 import './Navbar.css';
 
