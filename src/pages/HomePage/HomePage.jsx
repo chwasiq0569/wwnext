@@ -1,10 +1,10 @@
 import React from 'react'
 import './HomePage.css';
-import Accordion from '../../components/Accordion/Accordion'
+// import Accordion from '../../components/Accordion/Accordion'
 // import NftSoldier from "../../assets/PolishjSodliercom--unscreen.gif";
 // import NftSoldier from "../../assets/ezgif.com-video-to-gif.gif";
-import NftSoldier from "../../assets/UkraineNFTGIFF-unscreen.gif";
-import line from "../../assets/image 1153.png";
+// import NftSoldier from "../../assets/UkraineNFTGIFF-unscreen.gif";
+// import line from "../../assets/image 1153.png";
 import cloud1 from "../../assets/cloud1.webp";
 import cloudW from "../../assets/WCloud.webp";
 import helicopter from "../../assets/helicopter.webp";
@@ -44,18 +44,18 @@ import squadsLine from "../../assets/Rectangle 53.png";
 import mobileVersionImg from "../../assets/mobile.webp";
 import appStore from "../../assets/ComingSoonAppStore.png";
 import googlePlay from "../../assets/ComingSoonGooglePlay.png";
-import ecosystemImg from "../../assets/ecosystem.webp";
-import ecosystemflower from "../../assets/ecosystemflower.webp";
-import hand from "../../assets/hand.webp";
-import group65 from "../../assets/coins.webp";
+// import ecosystemImg from "../../assets/ecosystem.webp";
+// import ecosystemflower from "../../assets/ecosystemflower.webp";
+// import hand from "../../assets/hand.webp";
+// import group65 from "../../assets/coins.webp";
 // import thesoldiersNFT from "../../assets/photo_2023-08-14_15-43-51 1.png";
-import thesoldiersNFT from "../../assets/usasolidergif.gif";
-import warx from "../../assets/WARXcoin.webp";
-import bugs from "../../assets/bug.png";
-import blueFlower from "../../assets/blueFlowers.webp";
-import fractal from "../../assets/Fractal2 3.webp";
-import Odyn from "../../assets/Logo - Odyn (2) 3.webp";
-import blumint from "../../assets/blumint 3.webp";
+// import thesoldiersNFT from "../../assets/usasolidergif.gif";
+// import warx from "../../assets/WARXcoin.webp";
+// import bugs from "../../assets/bug.png";
+// import blueFlower from "../../assets/blueFlowers.webp";
+// import fractal from "../../assets/Fractal2 3.webp";
+// import Odyn from "../../assets/Logo - Odyn (2) 3.webp";
+// import blumint from "../../assets/blumint 3.webp";
 import Navbar from '../../components/NavBar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import HeroSection from '../../components/HeroSection/HeroSection';
@@ -63,7 +63,7 @@ import ThreeTypeNFT from '../../components/ThreeTypeNFT/ThreeTypeNFT';
 import BattleItOut from '../../components/BattleItOut/BattleItOut';
 import CountryReach from '../../components/CountryReach/CountryReach';
 import Carousel from '../../components/Carousel/Carousel';
-import CarouselPuppet from '../../components/CarouselPuppet/CarouselPuppet';
+// import CarouselPuppet from '../../components/CarouselPuppet/CarouselPuppet';
 import ArrowUp from "../../assets/arrowUp.png";
 
 const HomePage = () => {
